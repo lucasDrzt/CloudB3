@@ -2,8 +2,22 @@
 
 ## Commandes :
 
+Mettre les doit d'éxecution
 sudo chmod +x 
-Fichier de déployement changer le PATH qui ai utilisé
+changer le PATH qui ai utilisé
+
+Deployer l'instance
+./NomDuDeployement NomInstance
+Voire Id Instance
+scw instance server list
+
+Connecter à l'instance
+./go IdInstance
+
+Voire Id Instance
+scw instance server list
+
+Se connecter avec l'ip sur internet
 
 ## 1. Install_drupal:
 Script Bash pour installer Drupal.
