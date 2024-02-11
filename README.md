@@ -3,7 +3,7 @@
 ## Commandes :
 
 Mettre les doit d'éxecution
-sudo chmod +x 
+`sudo chmod +x NomDuFichier` 
 
 
 changer le PATH qui ai utilisé
