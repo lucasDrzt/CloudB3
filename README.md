@@ -21,7 +21,7 @@ Un script bash pour configurer un serveur MariaDB.
 Effectue une mise à jour du système, installe MariaDB et démarre/active le service MariaDB.
 Crée deux bases de données et deux utilisateurs pour Drupal, en leur attribuant les privilèges appropriés.
 ## 5. deploy_Drupal_backend1 et deploy_Drupal_backend2 :
-Les deux sont des scripts bash pour déployer des instances de backend Drupal.
+Scripts bash pour déployer des instances de backend Drupal.
 Nécessitent un nom de serveur en argument.
 Créent des instances de serveur avec des paramètres spécifiques et utilisent des scripts cloud-init situés à /home/lucas/cloud/drupalTest/install_drupal_backend1 et /home/lucas/cloud/drupalTest/install_drupal_backend2 respectivement.
 Fournissent des instructions pour vérifier le statut de l'instance.
