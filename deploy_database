@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Vérification des arguments
+
 if (( $# < 1 ))
 then
     echo "Usage: $0 nom_serveur_base_de_donnees"
