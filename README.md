@@ -3,22 +3,26 @@
 ## Commandes :
 
 Mettre les doit d'éxecution
+
 `sudo chmod +x NomDuFichier` 
 
-
-changer le PATH qui ai utilisé
+Changer le PATH sur tout les fichiers
 
 Deployer l'instance
-./NomDuDeployement NomInstance
+
+`./NomDuDeployement NomInstance`
 
 Voire Id Instance
-scw instance server list
+
+`scw instance server list`
 
 Connecter à l'instance
-./go IdInstance
+
+`./go IdInstance`
 
 Voire Id Instance
-scw instance server list
+
+`scw instance server list`
 
 Se connecter avec l'ip sur internet
 
