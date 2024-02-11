@@ -36,12 +36,12 @@ Nécessite un nom de serveur en argument.
 Crée une instance de base de données avec des paramètres spécifiques (type PRO2-XXS, zone fr-par-1, image Debian Bookworm).
 Utilise un script cloud-init situé à /home/lucas/cloud/drupalTest/install_database.
 Fournit des instructions pour accéder à l'instance après son lancement.
+
 ## 7. deploy_Drupal :
 Script Bash pour déployer un serveur Drupal.
 Nécessite un nom de serveur en argument.
 Semblable à deploy_database, il crée une instance de serveur avec des paramètres spécifiques et utilise un script cloud-init à /home/lucas/cloud/drupalTest/install_drupal.
 Fournit une commande pour vérifier l'ID de l'instance après le déploiement.
-
 
 ## 8. deploy_Drupal_backend1 et deploy_Drupal_backend2 :
 Scripts bash pour déployer des instances de backend Drupal.
@@ -52,11 +52,13 @@ Fournissent des instructions pour vérifier le statut de l'instance.
 ## 9. deleteall:
 Script Bash pour supprimer toutes les instances.
 Liste et arrête toutes les instances en cours d'exécution, puis les supprime.
+
 ## 10. deletesome:
 Script Bash pour supprimer des instances spécifiques.
 Nécessite un mot-clé en argument pour identifier les instances à supprimer.
 Liste les instances dont le nom contient le mot-clé, demande confirmation avant de procéder à la suppression.
 Arrête et supprime les instances sélectionnées.
+
 ## 11. getip:
 Script Bash pour obtenir l'IP publique d'une instance.
 Nécessite un ID d'instance en argument.
