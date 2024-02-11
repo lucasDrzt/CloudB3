@@ -13,5 +13,5 @@ scw instance server create \
     image=debian_bookworm \
     cloud-init=@/home/lucas/cloud/drupalTest/install_database
 
-echo "Déploiement de la base de données lancé..."
+echo "Déploiement de la base de données lancé"
 echo "Utilisez './go id_instance' pour accéder à l'instance après son lancement."
