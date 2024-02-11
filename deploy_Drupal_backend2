@@ -12,5 +12,5 @@ scw instance server create \
     image=debian_bookworm \
     cloud-init=@/home/lucas/cloud/drupalTest/install_drupal_backend2 
 
-echo "Déploiement de l'instance web Drupal lancé..."
+echo "Déploiement de l'instance web Drupal lancé"
 
