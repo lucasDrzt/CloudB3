@@ -6,13 +6,13 @@ Mettre les doit d'éxecution
 
 `sudo chmod +x NomDuFichier` 
 
-Changer le PATH sur tout les fichiers
+Changer le PATH sur tout les fichiers de deploy_exemple pour que le fichier d'installation soit bien récupérer 
 
 Deployer l'instance
 
 `./NomDuDeployement NomInstance`
 
-Voire Id Instance
+Voire Id Instance et l'IP
 
 `scw instance server list`
 
@@ -24,7 +24,7 @@ Voire Id Instance
 
 `scw instance server list`
 
-Se connecter avec l'ip sur internet
+Se connecter avec l'ip des deploiment Web sur internet
 
 ## Install_drupal:
 Script Bash pour installer Drupal.
