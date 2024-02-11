@@ -1,5 +1,10 @@
 # CloudB3
 
+## Commandes :
+
+sudo chmod +x 
+Fichier de déployement changer le PATH qui ai utilisé
+
 ## 1. Install_drupal:
 Script Bash pour installer Drupal.
 Met à jour le système et installe les dépendances nécessaires (Apache2, MariaDB, PHP, etc.).
