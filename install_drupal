@@ -12,9 +12,6 @@ sudo systemctl enable apache2
 sudo systemctl start mariadb
 sudo systemctl enable mariadb
 
-# Sécurisation de MariaDB (à faire manuellement)
-# sudo mysql_secure_installation
-
 # Création d'une base de données et d'un utilisateur pour Drupal
 sudo mysql -e "CREATE DATABASE drupalDB;"
 sudo mysql -e "CREATE USER 'drupalUser'@'localhost' IDENTIFIED BY 'drupalPass';"
