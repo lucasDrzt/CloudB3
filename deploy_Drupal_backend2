@@ -13,4 +13,4 @@ scw instance server create \
     cloud-init=@/home/lucas/cloud/drupalTest/install_drupal_backend2 
 
 echo "Déploiement de l'instance web Drupal lancé..."
-echo "Utilisez 'scw instance server list' pour vérifier le statut de l'instance."
+
