@@ -4,10 +4,13 @@
 
 Mettre les doit d'éxecution
 sudo chmod +x 
+
+
 changer le PATH qui ai utilisé
 
 Deployer l'instance
 ./NomDuDeployement NomInstance
+
 Voire Id Instance
 scw instance server list
 
