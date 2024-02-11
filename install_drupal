@@ -38,4 +38,4 @@ sudo find drupal -type f -exec chmod 644 {} \;
 # Redémarrage d'Apache pour appliquer les changements
 sudo systemctl restart apache2
 
-echo "Installation de Drupal terminée. Veuillez finaliser la configuration via l'interface web."
+echo "Installation de Drupal terminée"
